@@ -1,0 +1,137 @@
+.task-list {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: -26px;
+  margin-bottom: 12px;
+
+  /* @include md-and-up {
+    margin-top: -50px;
+  } */
+}
+
+.task-list__dark .container {
+  background: hsl(235, 24%, 19%);
+  border-radius: 12px;
+}
+
+.task-list__settingsRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+.task-list__settingsRow button,
+.task-list__settingsRow span {
+  font-size: 14px;
+  font-family: inherit;
+}
+
+/* @include md-and-up {
+      button,
+      span {
+        font-size: 14px;
+      }
+    } */
+/* 
+    &__outlineFilter {
+      .filterRow {
+        border-radius: 12px;
+        font-size: 16px;
+        justify-content: center;
+        box-shadow: 2px 2px 6px rgba($black, 0.05);
+      }
+      @include md-and-up {
+        display: none;
+      }
+    } */
+
+/* &__inlineFilter {
+      display: none;
+
+      @include md-and-up {
+        display: flex;
+        .filterRow {
+          width: 170px;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+} */
+
+.task-list__filterRow {
+  border-radius: 12px;
+  font-size: 16px;
+  justify-content: space-between;
+  display: flex;
+  width: 180px;
+  /* &__wrapper {
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } */
+}
+
+.task-list__filterRow__button {
+  text-transform: capitalize;
+  color: hsl(236, 9%, 61%);
+  font-size: 16px !important;
+  font-weight: 500;
+}
+.task-list__filterRow__button__active {
+  color: hsl(220, 98%, 61%) !important;
+}
+
+/* 
+.lightTheme {
+  .taskList {
+    background: $theme-light-card-bg;
+    box-shadow: 4px 4px 12px rgba($black, 0.15);
+  }
+
+  .taskList__settingsRow {
+    @include item-styles("light");
+    button,
+    span {
+      color: $theme-light-text-light;
+    }
+
+    button {
+      @include theme-light-button-hover-styles;
+    }
+
+    &__outlineFilter {
+      .filterRow {
+        @include item-styles("light");
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.darkTheme {
+  .taskList {
+    background: $theme-dark-card-bg;
+  }
+
+  .taskList__settingsRow {
+    @include item-styles("dark");
+
+    button,
+    span {
+      color: $theme-dark-text-light;
+    }
+
+    button {
+      @include theme-dark-button-hover-styles;
+    }
+  }
+  .taskList__settingsRow__outlineFilter {
+    .filterRow {
+      @include item-styles("dark");
+      justify-content: center;
+    }
+  }
+} */

@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  background: hsl(0, 0%, 98%);
+  color: hsl(235, 19%, 35%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  padding: 0 20px;
+  max-width: 470px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.item-styles {
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: hsl(235, 24%, 19%);
+  color: hsl(236, 33%, 92%);
+}

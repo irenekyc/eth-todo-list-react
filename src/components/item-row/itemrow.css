@@ -1,0 +1,51 @@
+.item-row {
+  font-size: 14px;
+  cursor: pointer;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.item-row span {
+  margin: 0 10px;
+  flex: 1;
+  text-align: left;
+}
+
+.item-cross {
+  text-decoration: line-through;
+}
+
+.item-row__dark {
+  color: hsl(236, 33%, 92%);
+  border-bottom: 1px solid hsl(233, 14%, 35%);
+}
+
+.item-row__dark .item-cross {
+  color: hsl(233, 14%, 35%);
+}
+
+.item-row__deleteButton {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+}
+
+.item-row:hover > .item-row__deleteButton {
+  opacity: 1;
+  visibility: visible;
+}
+/* &__light {
+    @include item-styles("light");
+    color: $theme-light-text-dark;
+    border-bottom: 1px solid $theme-light-text-light;
+    .cross {
+      color: $theme-light-text-light;
+    }
+  }
+
+
+
+}
+  */
